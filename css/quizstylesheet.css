@@ -31,9 +31,7 @@ p{
     
 }
 
-
-
-.answer{
+li{
         width: 10%;
    background-color: #a8c9ff;
     font-size: 20px;
@@ -44,6 +42,43 @@ p{
     margin-bottom: 5px;
     margin-top: 5px;
     padding: 5px;
+    cursor: pointer;
+}
+
+.correctAnswer {
+    background-color: #77FF41;
+}
+
+.correctAnswer:hover {
+    background-color: #77FF41;
+}
+
+.incorrectAnswer {
+    background-color: red;
+}
+
+.incorrectAnswer:hover {
+    background-color: red;
+}
+
+li:hover{
+    background-color: #CADEFF;
+}
+
+.answered li:hover {
+    cursor: default;
+}
+
+.usersScore{
+    background-color: red;
+    border-radius: 50%;
+	width: 110px;
+	height: 100px; 
+    background: linear-gradient(to bottom right, #324c77 , #a8c9ff);
+	text-align: center;
+    position: fixed;
+    right: 10px;
+    top: 0px;
 }
 
 
